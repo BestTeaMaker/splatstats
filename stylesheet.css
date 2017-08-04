@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Splatoon2;
+  src: url("assets/Splatoon2.ttf");
+}
+
+body {
+  background-color: black;
+  font-family: Splatoon2;
+}
+
+.background {
+  background-color: #0c0f27;
+  width: 900px;
+  height: auto;
+  margin: auto;
+}
+
+.header {
+  background-image: url("assets/header.png");
+  height: 169px;
+}
+
+.logo {
+  position: absolute;
+  height: 75px;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+.title {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.dropbtn {
+  background-color: #03040c;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: Splatoon2;
+  font-size: 30px;
+  display: block;
+  margin: auto;
+  outline: none;
+}
+
+.dropbtn:hover {
+  background-color: #0c1031;
+}
+
+.tournaments  {
+  background-color: #03040c;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #03040c;
+  z-index: 1;
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+
+.dropdown-content a {
+  color: white;
+  font-family: Splatoon2;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+  margin: 5px 5px 5px 5px;
+}
+
+.tier3 {
+  background-color: #48609e;
+  text-decoration: none;
+  color: white;
+  padding: 0 10px 0 10px;
+  margin: 5px 5px 5px 5px;
+}
+
+.tier4 {
+  background-color: #834c9b;
+  text-decoration: none;
+  color: white;
+  padding: 0 10px 0 10px;
+  margin: 5px 5px 5px 5px;
+}
+
+.team {
+  font-size: 30px;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.teamlogoimage {
+  height: 50px;
+}
+
+.teamlogo {
+  width: 1px;
+  white-space: nowrap;
+}
+
+.placement {
+  font-size: 40px;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.score {
+  font-size: 30px;
+  color: #c9b162;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.stats {
+  height: 1080px;
+  color: white;
+}
+
+.leaderboard {
+  margin-top: 50px;
+}
+
+.leaderboard h1, p, a{
+  text-align: center;
+}
+
+.leaderboard-caption {
+  color: #f46242;
+  text-decoration: none;
+}
+
+.show {
+  display: block;
+  margin: auto;
+}
